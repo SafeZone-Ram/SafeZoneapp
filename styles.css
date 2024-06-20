@@ -1,0 +1,84 @@
+CSS
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url(https://i.postimg.cc/JzKwvRGw/appface.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  text-align: center;
+  padding: 143px 0;
+}
+
+header img {
+  width: 15%;
+  max-width: 300px;
+  display: inline-block;
+}
+
+#login-page {
+  text-align: center;
+  padding: 20px;
+}
+
+#login-form {
+  display: inline-block;
+}
+
+#login-form input {
+  margin: 10px;
+  padding: 5px 10px;
+}
+
+#main-page {
+  text-align: center;
+  padding: 20px;
+}
+
+#status-messages {
+  margin-bottom:-200px;
+  padding: px; /* Adjusted padding */
+  background-color: rgba(255, 255, 255, 1.0);
+  border: 0.px solid #cccccc;
+  border-radius: 100px;
+  width: -20px; /* Set width to auto */
+  display:-50 px; /* Add this to make the container fit to the content */
+  text-align: centre; /* Align text to left */
+  font-weight: bold; /* Make the text bold */
+}
+
+#toggle-btn {
+  padding: 7px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+#toggle-btn:hover {
+  background-color: #45a049;
+}
+
+footer {
+  text-align: center;
+  padding: 2px;
+}
+
+#login-credentials {
+  margin-bottom: 10px;
+}
+
+#login-credentials input {
+  margin: 5px;
+  padding: 5px 10px;
+}

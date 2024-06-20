@@ -1,0 +1,41 @@
+HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SAFE ZONE</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <!-- Image tag removed -->
+    <div id="login-page">
+      <form id="login-form">
+        <div id="login-error"></div>
+        <input type="text" name="username" placeholder="Username" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+      </form>
+    </div>
+  </header>
+
+  <div id="main-page" style="display: none;">
+    <div id="status-messages">
+      <!-- Messages will be displayed here -->
+    </div>
+  </div>
+
+  <div id="status-container">
+    <!-- Container for status messages -->
+  </div>
+
+  <footer>
+    <button id="toggle-btn" onclick="toggleSafetyAlarm()">Start</button>
+    <button id="logout-btn" onclick="logout()" style="display: none;">Logout</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
